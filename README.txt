@@ -1,5 +1,9 @@
+#sameen.info
 
-Credits:WWW
+Static webpage for landing page under domain [sameen.info](https://www.sameen.info)
+
+
+Credits:
     Site Template:
         Aerial by HTML5 UP
             html5up.net | @ajlkn
