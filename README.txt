@@ -1,4 +1,4 @@
-#sameen.info
+# sameen.info
 
 Static webpage for landing page under domain [sameen.info](https://www.sameen.info)
 
