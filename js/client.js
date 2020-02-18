@@ -40,3 +40,9 @@ function ajax(method, url, data, success, error) {
     };
     xhr.send(data);
 }
+
+function closeHireAlert() {
+    const hireAlertCloseBtn = document.querySelector('.closebtn');
+    hireAlertCloseBtn.parentElement.style.display = 'none';
+
+}
