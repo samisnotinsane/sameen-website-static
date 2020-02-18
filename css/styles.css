@@ -8,6 +8,9 @@
     display: inline-block;
     float: right;
     line-height: 20px;
+    position: relative;
+        margin-top: -50px;
+        margin-right: 40px;
 }
 
 .cv-btn:hover, .cv-btn:active {
@@ -17,7 +20,7 @@
 }
 
 /* View CV button: iPad */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .cv-btn:link {
         /* float: right; */
         position: relative;
@@ -57,7 +60,7 @@
 
 /* Hire banner */
 .alert {
-    padding: 20px;
+    padding: 30px;
     background-color: #33f060;
     color: white;
 }
