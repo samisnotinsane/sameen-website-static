@@ -1,3 +1,83 @@
+/* Download CV button */
+.cv-btn:link, .cv-btn:visited {
+    background-color: white;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    line-height: 20px;
+}
+
+.cv-btn:hover, .cv-btn:active {
+    background-color:#f03365;
+    color: white;
+    /* background-color:#33C3F0; */
+}
+
+/* View CV button: iPad */
+@media (max-width: 1024px) {
+    .cv-btn:link {
+        /* float: right; */
+        position: relative;
+        margin-top: -50px;
+        margin-right: 40px;
+    }
+
+    .alert {
+        height: 30px;
+    }
+}
+
+/* View CV button: iPhone 6s, X, etc */
+@media only screen and (max-width: 600px) {
+    .cv-btn:link {
+        float: left;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .alert {
+        height: 60px;
+    }
+}
+
+/* View CV button: iPhone 5 */
+@media only screen and (max-device-width: 560px) {
+    .cv-btn:link {
+        position: relative;
+        top: -20px;
+    }
+
+    .alert {
+        height: 80px;
+    }
+}
+
+/* Hire banner */
+.alert {
+    padding: 20px;
+    background-color: #33f060;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+ /* Custom CSS from skeleton */
 .container {
     max-width: 800px;
 }
