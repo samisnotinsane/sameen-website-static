@@ -96,28 +96,21 @@
 
 		<div class="section contact" id="contact" onsubmit="return false">
 			<h6 class="docs-header">Contact</h6>
-			<form>
+			<p>Follow me on <a href="https://twitter.com/samisnotinsane7">Twitter</a> and add me to your 
+			<a href="https://www.linkedin.com/in/sameen-islam/">LinkedIn</a> network!</p>
+			<form action="https://formspree.io/mayoroko" method="POST">
 				<div class="row">
 					<div class="six columns">
 						<label for="emailInput">Your email</label>
-						<input class="u-full-width" type="email" placeholder="example@mail.com" 
-						id="emailInput" name="email" disabled>
+						<input class="u-full-width" type="email" placeholder="example@mail.com" id="emailInput"
+							name="email">
 					</div>
 				</div>
 				<label for="message">Message</label>
-				<textarea class="u-full-width" placeholder="Hi Sameen..." id="message" 
-				name="message" disabled></textarea>
-				<label class="send-yourself-copy">
-					<input type="checkbox" disabled>
-					<span class="label-body">Send a copy to yourself</span>
-				</label>
-				<input class="button-primary" type="submit" value="Send 📩" name="sendBtn" disabled>
-				<p style="font-style: italic;">Thanks for your patience while I develop this backend integration feature. 
-					In the meantime, please <a href="https://twitter.com/samisnotinsane7">Tweet</a> or add me to your 
-					<a href="https://www.linkedin.com/in/sameen-islam/">LinkedIn</a> network.
-				</p>
+				<textarea class="u-full-width" placeholder="Hi Sameen..." id="message" name="message"></textarea>
+				<input class="button-primary" type="submit" value="Send 📩" id="sendBtn">
 			</form>
-			<p class="sent-confirm">Thanks for reaching out, your message was sent successfully! 📮</p>
+			<p class="sent-confirm" style="display: none;">Thanks for reaching out, your message was sent successfully! 📮</p>
 		</div>
 
 		<section class="footer">
@@ -126,7 +119,7 @@
 	</div>
 	<!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/client.js"></script>
+	<script src="js/client.js"></script>
 </body>
 
 </html>
