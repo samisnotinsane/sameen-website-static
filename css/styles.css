@@ -2,15 +2,15 @@
 .cv-btn:link, .cv-btn:visited {
     background-color: white;
     color: black;
-    padding: 4px 8px;
+    padding: 6px 8px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     line-height: 20px;
     position: relative;
-        margin-top: -50px;
-        margin-right: 40px;
+    margin-top: -20px;
+    margin-right: 40px;
 }
 
 .cv-btn:hover, .cv-btn:active {
@@ -24,7 +24,7 @@
     .cv-btn:link {
         /* float: right; */
         position: relative;
-        margin-top: -50px;
+        margin-top: -45px;
         margin-right: 40px;
     }
 
@@ -60,7 +60,7 @@
 
 /* Hire banner */
 .alert {
-    padding: 30px;
+    padding: 15px;
     background-color: #33f060;
     color: white;
 }
