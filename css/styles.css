@@ -89,7 +89,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgb(4,198,105);
+        background: tomato;
         height: 5em;
     }
 
@@ -99,8 +99,7 @@
         height: 5px;
         margin: 1px;
         line-height: 1px;
-        color: white;
-        /* font-weight: bold; */
+        color: black;
         font-size: 0.9em;
         text-align: center;
     }
